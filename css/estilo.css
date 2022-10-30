@@ -1,0 +1,78 @@
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+.gracias {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+
+header {
+    background-color: burlywood;
+}
+
+.mainMenu {
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+}
+
+.parrafo {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img1 {
+    width: 300px;
+    border: brown 3px solid;
+    margin-left: 30px;
+}
+.img2 {
+    width: 200px;
+    border: brown 3px solid;
+    margin-left: 30px;
+}
+
+.img3 {
+    width: 150px;
+    border: brown 3px solid;
+    margin-left: 30px;
+}
+
+.medioPago {
+    list-style-type: circle;
+    margin-left: 10px;
+}
+
+.areaTexto {
+    background-color: aquamarine;
+}
+
+.envio {
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+}
+
+label {
+    margin-left: 10px;
+}
+
+.combos {
+    list-style-type: square;
+}
+
+footer {
+    background-color: olive;
+}
