@@ -1,78 +1,78 @@
-a {
-    text-decoration: none;
-    color: blue;
+/*HEADER*/
+.contenedor {
+    display: grid;
+    grid-template-areas: 
+    "encabezado encabezado encabezado encabezado"
+    "main main main main"
+    "img img img img"
+    "footer footer footer footer";    
 }
-
-body {
-    background-color: blanchedalmond;
-}
-
-h1 {
-    text-align: center;
-    color: brown;
-}
-
-.gracias {
-    text-align: center;
-    text-decoration: underline;
-    color: blue;
-}
-
-header {
-    background-color: burlywood;
-}
-
-.mainMenu {
+.mainMenu{
     list-style-type: none;
     display: inline;
     margin-left: 10px;
 }
 
-.parrafo {
-    text-align: center;
-    font-size: 25px;
+header {
+background-color: azure;
+grid-area: encabezado;
 }
 
-.img1 {
-    width: 300px;
-    border: brown 3px solid;
-    margin-left: 30px;
+h1 {
+    text-align: center;
 }
-.img2 {
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+nav {
+    background-color: bisque;
+    grid-area: nav;
+}
+
+main {
+    background-color: aquamarine;
+    grid-area: main;
+}
+
+img {
+    grid-area: img;
+}
+
+footer {
+    background-color: azure;
+    grid-area: footer;
+}
+
+/*Imagenes*/
+
+.mani {
     width: 200px;
     border: brown 3px solid;
     margin-left: 30px;
 }
 
-.img3 {
-    width: 150px;
+.nuez {
+    width: 200px;
     border: brown 3px solid;
     margin-left: 30px;
 }
 
-.medioPago {
-    list-style-type: circle;
-    margin-left: 10px;
+.caju {
+    width: 200px;
+    border: brown 3px solid;
+    margin-left: 30px;
 }
 
-.areaTexto {
-    background-color: aquamarine;
+.pistachos {
+    width: 200px;
+    border: brown 3px solid;
+    margin-left: 30px;
 }
 
-.envio {
-    text-align: center;
-    text-decoration: double;
-    text-decoration: underline;
-}
-
-label {
-    margin-left: 10px;
-}
-
-.combos {
-    list-style-type: square;
-}
-
-footer {
-    background-color: olive;
-}
+@media ()
