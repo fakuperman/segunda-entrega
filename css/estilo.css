@@ -76,7 +76,7 @@ footer {
     margin-left: 30px;
 }
 
-@media (min-width:1024px) {
+@media (min-width:400px) {
     .gridContenedor {
         grid-template-areas: 
         "encabezado encabezado encabezado encabezado"
