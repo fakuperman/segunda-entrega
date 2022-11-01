@@ -62,10 +62,20 @@ footer {
     margin-left: 30px;
 }
 
+.mani:hover {
+    width: 210px;
+    border: blue 5px solid;
+}
+
 .nuez {
     width: 200px;
     border: brown 3px solid;
     margin-left: 30px;
+}
+
+.nuez:hover {
+    width: 210px;
+    border: blue 5px solid;
 }
 
 .caju {
@@ -74,11 +84,22 @@ footer {
     margin-left: 30px;
 }
 
+.caju:hover {
+    width: 210px;
+    border: blue 5px solid;
+}
+
 .pistachos {
     width: 200px;
     border: brown 3px solid;
     margin-left: 30px;
 }
+
+.pistachos:hover {
+    width: 210px;
+    border: blue 5px solid;
+}
+
 
 @media (max-width:600px) {
     .gridContenedor {
