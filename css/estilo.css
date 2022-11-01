@@ -8,6 +8,10 @@
     "footer footer footer footer";   
 }
 
+section {
+    display: flex;
+}
+
 .mainMenu{
     list-style-type: none;
     display: inline;
@@ -76,7 +80,17 @@ footer {
     margin-left: 30px;
 }
 
-@media (min-width:400px) {
+@media (max-width:600px) {
+    .gridContenedor {
+        grid-template-areas: 
+        "encabezado encabezado"
+        "main main"
+        "img img"
+        "footer footer";
+    }
+}
+
+@media (min-width:601px) and (max-width: 900px) {
     .gridContenedor {
         grid-template-areas: 
         "encabezado encabezado encabezado encabezado"
